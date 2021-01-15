@@ -21,10 +21,11 @@
   Tarea: Escribe el cuerpo de la función botonClickeado
 */
 
+// THIS IS A TRY OF THE EXERCISE 
+
 // Tu código aquí
 function botonClickeado() {
-  // console.log('Hiciste click en el botón' + );
-
+  console.log('Hiciste click en el botón' + ' ' + botones);
 }
 
 // BOILERPLATE
@@ -47,9 +48,16 @@ for (var i = 0; i < botones.length; i++) {
   Tarea: Escribe el cuerpo de la función incrementarFunc
 */
 
+// THIS IS A TRY OF THE EXCERCISE
+
 // Tu código aquí
 function incrementarFunc() {
-  
+  contador = 0
+
+  if (incrementar) {
+    contador = contador + 1;
+    console.log(contador);
+  }
 }
 
 // BOILERPLATE
@@ -66,6 +74,8 @@ incrementar.addEventListener("click", function() {
   Tarea: Arreglar el codigó que no funciona. No se esta imprimiento el valor del input
   Condicions: NO puedes usar "var".
 */
+
+// I DID THIS ONE
 
 const button = document.querySelector("#mostrar");
 const input = document.querySelector("#nombre");
